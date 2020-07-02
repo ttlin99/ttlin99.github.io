@@ -65,7 +65,7 @@
                     // padding-left: 20px;
                     width: 70px;
                 }
-               
+
             }
         }
         .Appointment{
@@ -80,7 +80,7 @@
                     margin-right: 15px;
                 }
                 a{
-                    
+
                     i{
                         color: #E8E8E8;
                     }
@@ -117,15 +117,15 @@
                 padding: 14px 49px;
                 font-size: 16px;
                 font-weight: 600;
-                border: 1px solid #DB9A64;
-                color: #DB9A64;
+                border: 1px solid #64afdb;
+                color: #326bd6;
                 @include border-radius(0px);
                 @media #{$mid_device} {
                     padding: 12px 20px;
                 }
                 &:hover{
                 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#DB9A64+0,fd8e5e+100 */
-                background: #DB9A64;
+                background: #647adb;
                     color: #fff;
                 }
                }
@@ -146,17 +146,17 @@
                     //     margin-right: 15px;
                     // }
                     a{
-                        color: #DB9A64;
+                        color: #2f8af1;
                         font-size: 16px;
                         text-transform: capitalize;
                         font-weight: 500;
                         display: inline-block;
-                        
+
                         padding: 0px 10px 0px 10px;
                         font-family: $font2;
                         position: relative;
                         text-transform:capitalize;
-                        
+
                         @media #{$mid_device} {
                             padding: 0px 0px 0px 0px;
                             font-size: 15px;
@@ -198,14 +198,14 @@
                         //     transform: scaleX(1);
                         // }
                         &.active{
-                            color: #DB9A64;
+                            color: #6484db;
                             &::before{
                                 opacity: 1;
                                 transform: scaleX(1);
                             }
                         }
                         &:hover{
-                            color: #DB9A64;
+                            color: #64abdb;
                         }
                     }
                     .submenu {
@@ -265,7 +265,7 @@
             -webkit-transition: transform 500ms ease, background 500ms ease;
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             // padding: 10px 150px;
-            background: #311E25;
+            background: #100c42;
             // padding-bottom: 0;
             @media #{$mobile_device} {
                 padding: 10px 10px;
@@ -294,7 +294,7 @@
                         &::before {
                             position: absolute;
                             content: "";
-                            background: #DB9A64;
+                            background: #6470db;
                             width: 100%;
                             height: 3px;
                             bottom: -33px;
@@ -307,7 +307,7 @@
                 }
             }
         }
-        
+
     }
     .header-top_area{
         padding: 12px 0;
@@ -321,10 +321,10 @@
             color: #C7C7C7;
             margin-right: 12px;
             &:hover{
-                color: #DB9A64;
+                color: #64a6db;
             }
           }
-      }  
+      }
       .header_left{
           p{
               color:#727272 ;
@@ -345,13 +345,13 @@
                     font-size: 13px;
                     color: #919191;
                     margin-right: 50px;
-                    @media #{$mobile_device} 
+                    @media #{$mobile_device}
                     {
                         margin-left: 0;
                         margin: 0 5px;
                     }
                     i{
-                        color: #DB9A64;
+                        color: #64bfdb;
                         margin-right: 7px;
                     }
                   }
@@ -370,11 +370,11 @@
     .search_btn{
         @media #{$mid_device} {
           position: relative;
-          right: 10px;  
+          right: 10px;
         }
         @media #{$large_device} {
           position: relative;
-          right: 10px;  
+          right: 10px;
         }
     }
 }
