@@ -1309,7 +1309,7 @@ h3 {
 .slider_area .single_slider .my_img {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
