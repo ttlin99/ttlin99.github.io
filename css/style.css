@@ -67,14 +67,12 @@ a:hover,
 /* line 34, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
   outline: medium none;
 }
 
 /* line 39, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
-  color: #001D38;
 }
 
 /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
@@ -103,7 +101,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #4D4D4D;
+  color: #fff;
   margin-bottom: 13px;
   font-family: "Roboto", sans-serif;
 }
