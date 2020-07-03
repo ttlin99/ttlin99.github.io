@@ -356,7 +356,7 @@ h3 {
 /* line 273, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #FD8E5E;
+  background: #5e76fd;
   border: 1px solid transparent;
 }
 
@@ -387,154 +387,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
 .boxed-btn {
-  background: #fff;
-  color: #131313;
-  display: inline-block;
-  padding: 18px 44px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  border: 0;
-  border: 1px solid #DB9A64;
-  letter-spacing: 3px;
-  text-align: center;
-  color: #DB9A64 !important;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn:hover {
-  background: #DB9A64;
-  color: #fff !important;
-  border: 1px solid #DB9A64;
-}
-
-/* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn:focus {
-  outline: none;
-}
-
-/* line 25, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn.large-width {
-  width: 220px;
-}
-
-/* line 29, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3 {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#DB9A64+0,fd8e5e+100 */
-  background: #fdae5c;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DB9A64', endColorstr='#fd8e5e',GradientType=1 );
-  /* IE6-9 */
-  color: #fff;
-  display: inline-block;
-  padding: 19px 41px;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  border: 0;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  text-align: center;
-  color: #fff !important;
-  text-transform: capitalize;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3:hover {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#DB9A64+0,fd8e5e+100 */
-  background: #fdae5c;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DB9A64', endColorstr='#fd8e5e',GradientType=1 );
-  /* IE6-9 */
-  color: #fff !important;
-}
-
-/* line 62, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3:focus {
-  outline: none;
-}
-
-/* line 65, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3.large-width {
-  width: 220px;
-}
-
-/* line 70, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-white {
-  color: #fff;
-  display: inline-block;
-  padding: 13px 27px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  border: 0;
-  border: 1px solid #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  text-align: center;
-  color: #fff !important;
-  text-transform: capitalize;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  cursor: pointer;
-  letter-spacing: 2px;
-}
-
-/* line 87, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-white:hover {
-  background: #28AE61;
-  color: #fff !important;
-  border: 1px solid transparent;
-}
-
-/* line 92, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-white i {
-  margin-right: 2px;
-}
-
-/* line 95, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-white:focus {
-  outline: none;
-}
-
-/* line 98, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-white.large-width {
-  width: 220px;
-}
-
-/* line 103, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-line {
-  color: #DB9A64 !important;
+  color: #4ec2f0 !important;
   display: inline-block;
   padding: 17px 49px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
-  border: 1px solid #DB9A64;
+  border: 1px solid #4ec2f0;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -547,96 +407,22 @@ h3 {
   cursor: pointer;
 }
 
-/* line 118, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-line:hover {
+/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
+.boxed-btn:hover {
+  background: #4ec2f0;
   color: #fff !important;
-  border: 1px solid transparent;
-  background: #DB9A64;
+  border: 1px solid #4ec2f0;
+
 }
 
-/* line 123, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-line:focus {
+/* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
+.boxed-btn:focus {
   outline: none;
 }
 
-/* line 126, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn3-line.large-width {
+/* line 25, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
+.boxed-btn.large-width {
   width: 220px;
-}
-
-/* line 130, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn2 {
-  border: none;
-  background: #DB9A64;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  display: inline-block;
-  padding: 12px 36px;
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-}
-
-/* line 143, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn2:hover {
-  background: #DB9A64;
-  color: #fff !important;
-}
-
-/* line 147, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn2:focus {
-  outline: none;
-}
-
-/* line 151, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.line-button {
-  color: #919191;
-  font-size: 16px;
-  font-weight: 400;
-  display: inline-block;
-  position: relative;
-  padding-right: 5px;
-  padding-bottom: 2px;
-}
-
-/* line 159, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.line-button::before {
-  position: absolute;
-  content: "";
-  background: #919191;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-}
-
-/* line 168, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.line-button:hover {
-  color: #009DFF;
-}
-
-/* line 171, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.line-button:hover::before {
-  background: #009DFF;
-}
-
-/* line 175, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.book_now {
-  display: inline-block;
-  font-size: 14px;
-  color: #009DFF;
-  border: 1px solid #009DFF;
-  text-transform: capitalize;
-  padding: 10px 25px;
-}
-
-/* line 182, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.book_now:hover {
-  background: #009DFF;
-  color: #fff;
 }
 
 /* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
@@ -758,12 +544,12 @@ h3 {
 /* line 28, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 32, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 @media (max-width: 767px) {
@@ -1045,14 +831,14 @@ h3 {
 
 /* line 113, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#DB9A64+0,fd8e5e+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#64b9db+0,fd8e5e+100 */
   background: transparent;
   font-family: "Roboto", sans-serif;
   padding: 14px 49px;
   font-size: 16px;
   font-weight: 600;
-  border: 1px solid #DB9A64;
-  color: #DB9A64;
+  border: 1px solid #64b9db;
+  color: #64b9db;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -1067,8 +853,8 @@ h3 {
 
 /* line 126, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#DB9A64+0,fd8e5e+100 */
-  background: #DB9A64;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#64b9db+0,fd8e5e+100 */
+  background: #64b9db;
   color: #fff;
 }
 
@@ -1087,7 +873,7 @@ h3 {
 
 /* line 148, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #DB9A64;
+  color: #64c3db;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1135,7 +921,7 @@ h3 {
 
 /* line 200, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #DB9A64;
+  color: #64c3db;
 }
 
 /* line 202, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
@@ -1146,7 +932,7 @@ h3 {
 
 /* line 207, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #DB9A64;
+  color: #d2ebf1;
 }
 
 /* line 211, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
@@ -1225,7 +1011,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #311E25;
+  background: #010636;
 }
 
 @media (max-width: 767px) {
@@ -1254,7 +1040,7 @@ h3 {
 .header-area .main-header-area.sticky ul li a::before {
   position: absolute;
   content: "";
-  background: #DB9A64;
+  background: #64b9db;
   width: 100%;
   height: 3px;
   bottom: -33px;
@@ -1289,7 +1075,7 @@ h3 {
 
 /* line 323, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .header-top_area .social_media_links a:hover {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 329, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
@@ -1334,7 +1120,7 @@ h3 {
 
 /* line 353, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #DB9A64;
+  color: #64b9db;
   margin-right: 7px;
 }
 
@@ -1454,7 +1240,7 @@ h3 {
 
 /* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
-  color: #DB9A64;
+  color: #8cd8f7;
 }
 
 @media (max-width: 767px) {
@@ -1478,13 +1264,16 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     font-size: 70px;
   }
+  .slider_area .single_slider .slider_text h4 {
+    font-size: 35px;
+  }
 }
 
 /* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
   font-size: 30px;
   font-weight: 400;
-  color: #F91842;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   margin-bottom: 24px;
 }
@@ -2080,7 +1869,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 5px;
   font-family: "Roboto", sans-serif;
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 50, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_testmonial.scss */
@@ -2127,7 +1916,7 @@ h3 {
 
 /* line 83, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div:hover {
-  background: #DB9A64;
+  background: #64b9db;
   color: #fff !important;
 }
 
@@ -2499,7 +2288,7 @@ h3 {
 
 /* line 50, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
 .download_area .progress_skills .single_progress .progress .progress-bar {
-  background: #DB9A64;
+  background: #64b9db;
   border-radius: 5px;
 }
 
@@ -2575,7 +2364,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area {
-  background: #311E25;
+  background: #010636;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -2605,7 +2394,7 @@ h3 {
 .gallery_area .single_gallery .gallery_heading h4 {
   font-size: 24px;
   font-weight: 400;
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 26, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
@@ -2682,7 +2471,7 @@ h3 {
 
 /* line 32, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .footer_top .lets_talk h3 a {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 36, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
@@ -2734,7 +2523,7 @@ h3 {
 
 /* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .footer_top .single_links a i {
-  color: #DB9A64;
+  color: #64b9db;
   font-size: 20px;
 }
 
@@ -2772,7 +2561,7 @@ h3 {
 
 /* line 88, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_bradcam.scss */
@@ -2989,7 +2778,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_service.scss */
 .service_area .single_service h3 {
-  color: #DB9A64;
+  color: #64b9db;
   margin-top: 22px;
   margin-bottom: 11px;
   font-weight: 400;
@@ -4558,7 +4347,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #DB9A64 0%, #DB9A64 99%);
+  background: -webkit-linear-gradient(131deg, #64b9db 0%, #64b9db 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5070,7 +4859,7 @@ h6 {
 
 /* line 545, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 550, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
@@ -5366,7 +5155,7 @@ h6 {
 
 /* line 843, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #DB9A64;
+  background: #64b9db;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5615,7 +5404,7 @@ h6 {
 
 /* line 1209, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #DB9A64;
+  color: #64b9db;
 }
 
 /* line 1214, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog.scss */
@@ -6045,7 +5834,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #DB9A64;
+  color: #64b9db;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6072,7 +5861,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #DB9A64;
+  background-color: #64b9db;
   border-radius: 50%;
 }
 
