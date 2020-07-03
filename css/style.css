@@ -1170,6 +1170,7 @@ h3 {
 
 /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
+  min-height: 100vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1178,20 +1179,20 @@ h3 {
 @media (max-width: 767px) {
   /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: auto;
+    min-height: 100vh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 600px;
+    height: 100vh;
   }
 }
 
 /* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text {
-  padding: 303px 0;
+  padding-top: 150px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1210,7 +1211,7 @@ h3 {
 
 /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text.about_slide {
-  padding: 241px 0 258px 0;
+  padding-top: 70px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1237,6 +1238,18 @@ h3 {
   color: #fff;
   margin-bottom: 55px;
 }
+
+.slider_area .single_slider .slider_text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 300;
+  line-height: 90px;
+  color: rgb(124, 220, 250);
+  margin-bottom: 15px;
+}
+
 
 /* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
@@ -1271,7 +1284,7 @@ h3 {
 
 /* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -1296,7 +1309,7 @@ h3 {
 .slider_area .single_slider .my_img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -2865,7 +2878,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_contact.scss */
 .contact-info {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 /* line 13, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_contact.scss */
