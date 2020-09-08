@@ -6006,4 +6006,14 @@ h6 {
   font-size: 12px;
 }
 
+.gallery{
+  display: flexbox;
+  text-align: center;
+  margin: 0% 5%;
+}
+
+.gallery img{
+  height: 700px;
+  padding: 30px 20px;
+}
 /*# sourceMappingURL=style.css.map */
