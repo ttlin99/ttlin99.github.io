@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +18,6 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 /* 1. Theme default css */
-/* line 5, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -27,7 +25,6 @@ body {
   color: #000;
 }
 
-/* line 12, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -36,7 +33,6 @@ body {
   transition: 0.3s;
 }
 
-/* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -45,19 +41,16 @@ a,
   transition: 0.3s;
 }
 
-/* line 20, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 25, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a:focus {
   text-decoration: none;
 }
 
-/* line 28, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -65,18 +58,15 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 34, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 a,
 button {
   outline: medium none;
 }
 
-/* line 39, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
 }
 
-/* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -86,18 +76,15 @@ h6 a {
   color: inherit;
 }
 
-/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 56, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 li {
   list-style: none;
 }
 
-/* line 59, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 p {
   font-size: 16px;
   font-weight: 300;
@@ -106,7 +93,6 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-/* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -114,249 +100,52 @@ label {
   font-weight: 400;
 }
 
-/* line 74, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 *::-moz-selection {
   background: #444;
   color: #000;
   text-shadow: none;
 }
 
-/* line 79, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 ::-moz-selection {
   background: #444;
   color: #000;
   text-shadow: none;
 }
 
-/* line 84, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 ::selection {
   background: #444;
   color: #000;
   text-shadow: none;
 }
 
-/* line 89, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 94, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 *:-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 99, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 104, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 110, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 114, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-65 {
-  margin-bottom: 67px;
-}
-
-/* line 118, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.black-bg {
-  background: #020c26 !important;
-}
-
-/* line 122, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.white-bg {
-  background: #ffffff;
-}
-
-/* line 125, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.gray-bg {
-  background: #f5f5f5;
-}
-
-/* line 130, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
-}
-
-/* line 133, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.bg-img-2 {
-  background-image: url(../img/background-img/bg-img-2.jpg);
-}
-
-/* line 136, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.cta-bg-1 {
-  background-image: url(../img/background-img/bg-img-3.jpg);
-}
-
-/* line 141, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay {
-  position: relative;
-  z-index: 0;
-}
-
-/* line 145, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay::before {
-  position: absolute;
-  content: "";
-  background-color: #001D38;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: .5;
-}
-
-/* line 157, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay2 {
-  position: relative;
-  z-index: 0;
-}
-
-/* line 161, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay2::before {
-  position: absolute;
-  content: "";
-  background-color: #001D38;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.6;
-}
-
-/* line 173, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay_03 {
-  position: relative;
-  z-index: 0;
-}
-
-/* line 177, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.overlay_03::before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #001D38;
-  opacity: .6;
-  content: '';
-  z-index: -1;
-}
-
-/* line 210, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-/* line 214, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.pt-120 {
-  padding-top: 120px;
-}
-
-/* button style */
-/* line 220, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div {
-  background: transparent;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 50px;
-  color: #707070;
-  background-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  left: 50px;
-  font-size: 15px;
-  line-height: 50px;
-  border: 1px solid #4D6174;
-  left: 150px;
-  color: #fff;
-}
-
-/* line 248, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div.owl-next {
-  left: auto;
-  right: 150px;
-}
-
-/* line 253, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div.owl-next i {
-  position: relative;
-  right: 0;
-}
-
-/* line 260, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div.owl-prev i {
-  position: relative;
-  top: 0px;
-}
-
-/* line 270, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel:hover .owl-nav div {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* line 273, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.owl-carousel:hover .owl-nav div:hover {
-  color: #fff;
-  background: #5e76fd;
-  border: 1px solid transparent;
-}
-
-/* line 283, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-20px {
-  margin-bottom: 20px;
-}
-
-/* line 287, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-55 {
-  margin-bottom: 55px;
-}
-
-/* line 290, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-/* line 293, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-20 {
-  margin-bottom: 20px;
-}
-
-/* line 298, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/theme-default.scss */
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
 .boxed-btn {
   color: #fff !important;
   display: inline-block;
@@ -378,7 +167,6 @@ h3 {
   cursor: pointer;
 }
 
-/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
 .boxed-btn:hover {
   background: #333;
   color: #fff !important;
@@ -406,22 +194,10 @@ h3 {
   cursor: pointer;
 }
 
-/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
 .boxed-btn-black:hover {
   background: #333;
   color: #fff !important;
   border: 1px solid #fff;
-
-}
-
-/* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn:focus {
-  outline: none;
-}
-
-/* line 25, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_btn.scss */
-.boxed-btn.large-width {
-  width: 220px;
 }
 
 .contact-info__icon {
@@ -433,97 +209,7 @@ h3 {
     font-size: 27px;
 }
 
-/* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-.section_title h3 {
-  font-size: 36px;
-  font-weight: 400;
-  color: #fff;
-  position: relative;
-  z-index: 0;
-  padding-bottom: 0px;
-}
-
 @media (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .section_title h3 {
-    font-size: 30px;
-    line-height: 36px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .section_title h3 {
-    font-size: 36px;
-    line-height: 42px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 18, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .section_title h3 br {
-    display: none;
-  }
-}
-
-/* line 24, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-.section_title p {
-  font-size: 20px;
-  color: #F91842;
-  margin-bottom: 0;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 16px;
-}
-
-@media (max-width: 767px) {
-  /* line 31, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .section_title p br {
-    display: none;
-  }
-}
-
-/* line 39, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-.section_title h4 {
-  font-size: 22px;
-  font-weight: 500;
-  color: #001D38;
-  padding-bottom: 21px;
-}
-
-/* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-.mb-60 {
-  margin-bottom: 60px;
-}
-
-@media (max-width: 767px) {
-  /* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .mb-60 {
-    margin-bottom: 40px;
-  }
-}
-
-/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-.mb-60 {
-  margin-bottom: 50px !important;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .mb-60 {
-    margin-bottom: 30px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_section_title.scss */
-  .mb-60 {
-    margin-bottom: 20px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
     right: 0px;
@@ -532,7 +218,6 @@ h3 {
   }
 }
 
-/* line 13, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
   background: #fff;
   float: right;
@@ -549,32 +234,19 @@ h3 {
   top: 11px;
 }
 
-/* line 28, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav a:hover {
-  background: transparent;
-  color: #64b9db;
-}
-
-/* line 32, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav a.active {
-  color: #64b9db;
-}
 
 @media (max-width: 767px) {
-  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
-/* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -588,7 +260,6 @@ h3 {
   top: -36px;
 }
 
-/* line 55, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
   margin-right: 6px;
   margin-top: 3px;
@@ -599,13 +270,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
   .slicknav_menu {
     margin-right: 0px;
   }
 }
 
-/* line 72, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_nav .slicknav_arrow {
   float: right;
   font-size: 22px;
@@ -613,7 +282,6 @@ h3 {
   top: -9px;
 }
 
-/* line 78, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -629,7 +297,6 @@ h3 {
   top: -31px;
 }
 
-/* line 92, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -645,7 +312,6 @@ h3 {
   top: -33px;
 }
 
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area {
   left: 0;
   right: 0;
@@ -656,20 +322,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
   }
 }
 
-/* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 18px 0;
   background: #fff;
@@ -678,193 +341,90 @@ h3 {
   padding: 25px 150px;
 }
 
-/* line 21, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.details_nav_bg {
   background: #727272;
   padding-bottom: 0;
 }
 
 @media (max-width: 767px) {
-  /* line 21, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area.details_nav_bg {
     padding-bottom: 10px;
   }
 }
 
-/* line 28, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.details_nav {
   background: #001D38;
 }
 
 @media (max-width: 767px) {
-  /* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 20px 20px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 16, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 20px 20px;
   }
 }
 
-/* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  /* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 45, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 59, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 70px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 59, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 70px;
   }
 }
 
-/* line 71, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  -ms-justify-content: flex-end;
-  justify-content: flex-end;
-  -ms-flex-pack: flex-end;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 75, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .search_button {
-    margin-right: 15px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 75, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .search_button {
-    margin-right: 15px;
-  }
-}
-
-/* line 84, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .search_button a i {
-  color: #E8E8E8;
-}
-
-/* line 91, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
-  display: inline-block;
-}
-
-/* line 94, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a {
-  color: #A8A7A0;
-  margin: 0 10px;
-  font-size: 15px;
-}
-
-/* line 98, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a:hover {
-  color: #fff;
-}
-
-/* line 105, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .book_btn {
-  margin-left: 30px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 105, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn {
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 105, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn {
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 113, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn a {
-    padding: 12px 20px;
-  }
-}
-
-/* line 126, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .book_btn a:hover {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#64b9db+0,fd8e5e+100 */
-  background: #64b9db;
-  color: #fff;
-}
-
-/* line 134, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
   text-align: center;
   padding: 12px 0;
 }
 
-/* line 138, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
   margin: 0 10px;
 }
 
-/* line 148, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #000;
   font-size: 16px;
@@ -878,7 +438,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 148, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     padding: 0px 0px 0px 0px;
     font-size: 15px;
@@ -886,49 +445,32 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 148, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     font-size: 15px;
     padding: 0px 0px 0px 0px;
   }
 }
 
-/* line 169, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
   font-size: 9px;
 }
 
 @media (max-width: 767px) {
-  /* line 169, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 169, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
-/* line 200, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active {
-  color: #000;
-}
-
-/* line 202, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active::before {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-/* line 207, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #d2ebf1;
+  color: #ccc;
 }
 
-/* line 211, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
   left: 0;
@@ -946,12 +488,10 @@ h3 {
   transition: 0.6s;
 }
 
-/* line 223, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li {
   display: block;
 }
 
-/* line 225, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
   padding: 10px 15px;
   position: inherit;
@@ -963,35 +503,30 @@ h3 {
   color: #000;
 }
 
-/* line 231, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a::before {
   display: none;
 }
 
-/* line 235, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #000;
+  background: #aaa;
+  color: #fff;
 }
 
-/* line 240, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
   opacity: 1;
   visibility: visible;
   top: 150%;
 }
 
-/* line 245, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:hover > a::before {
   opacity: 1;
   transform: scaleX(1);
 }
 
-/* line 249, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:first-child a {
   padding-left: 0;
 }
 
-/* line 255, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -1008,28 +543,23 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 255, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 10px;
   }
 }
 
-/* line 282, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu {
   padding: 0;
 }
 
-/* line 285, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .header_bottom_border {
   border-bottom: none;
 }
 
-/* line 288, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .header_bottom_border.white_border {
   border-bottom: none !important;
 }
 
-/* line 294, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky ul li a::before {
   position: absolute;
   content: "";
@@ -1046,122 +576,25 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 312, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .header-top_area {
   padding: 12px 0;
   background: #001D38;
 }
 
-@media (max-width: 767px) {
-  /* line 315, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .header-top_area .social_media_links {
-    text-align: center;
-  }
-}
-
-/* line 319, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .social_media_links a {
-  font-size: 15px;
-  color: #C7C7C7;
-  margin-right: 12px;
-}
-
-/* line 323, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .social_media_links a:hover {
-  color: #64b9db;
-}
-
-/* line 329, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .header_left p {
-  color: #727272;
-  font-weight: 400;
-  font-size: 13px;
-  margin-bottom: 0;
-}
-
-/* line 336, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .short_contact_list {
-  text-align: right;
-}
-
-@media (max-width: 767px) {
-  /* line 336, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .header-top_area .short_contact_list {
-    text-align: center;
-  }
-}
-
-/* line 342, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .short_contact_list ul li {
-  display: inline-block;
-}
-
-/* line 344, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .short_contact_list ul li a {
-  font-size: 13px;
-  color: #919191;
-  margin-right: 50px;
-}
-
-@media (max-width: 767px) {
-  /* line 344, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .header-top_area .short_contact_list ul li a {
-    margin-left: 0;
-    margin: 0 5px;
-  }
-}
-
-/* line 353, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .header-top_area .short_contact_list ul li a i {
-  color: #64b9db;
-  margin-right: 7px;
-}
-
-/* line 361, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
 .header-area .header-top_area .header_right.d-flex {
   display: flex;
   justify-content: flex-end;
 }
 
-/* line 366, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-.header-area .search_btn i {
-  color: #fff;
-  font-size: 15px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 370, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .search_btn {
-    position: relative;
-    right: 10px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 370, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_header.scss */
-  .header-area .search_btn {
-    position: relative;
-    right: 10px;
-  }
-}
-
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner.png);
 }
 
-/* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
-.slider_bg_2 {
-  background-image: url(../img/banner/banner_2.png);
-}
-
-/* line 7, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
   z-index: 0;
 }
 
-/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   min-height: 100vh;
   background-size: 100% 100%;
@@ -1170,58 +603,49 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider {
     min-height: 100vh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider {
     height: 100vh;
   }
 }
 
-/* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text {
   padding-top: 150px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text {
     padding: 130px 0;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text {
     padding: 130px 0;
   }
 }
 
-/* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text.about_slide {
   padding-top: 70px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text.about_slide {
     padding: 130px 0;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text.about_slide {
     padding: 130px 0;
   }
 }
 
-/* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: "Roboto", sans-serif;
   font-size: 80px;
@@ -1247,13 +671,11 @@ h3 {
   color: #000;
 }
 
-/* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
   color: #aaa;
 }
 
 @media (max-width: 767px) {
-  /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -1262,14 +684,12 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 54px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 70px;
   }
@@ -1278,7 +698,6 @@ h3 {
   }
 }
 
-/* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
   font-size: 16px;
   font-weight: 400;
@@ -1288,20 +707,17 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 68, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
   }
 }
 
-/* line 84, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .my_img {
   position: absolute;
   right: 0;
@@ -1310,307 +726,25 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 84, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .my_img {
     width: 480px;
   }
 }
 
-/* line 91, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .my_img img {
   width: 100%;
 }
 
-/* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area {
-  padding-bottom: 70px;
-}
-
-/* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area.plus_padding {
-  padding-top: 100px;
-}
-
-@media (max-width: 767px) {
-  /* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_info_area.plus_padding {
-    padding-top: 30px;
-  }
-}
-
-/* line 10, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_text {
-  margin-bottom: 30px;
-}
-
-/* line 12, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_text h3 {
-  font-size: 46px;
-  font-weight: 300;
-  color: #001D38;
-}
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_info_area .about_text h3 {
-    font-size: 30px;
-  }
-}
-
-/* line 20, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_text p {
-  font-size: 15px;
-  font-weight: 400;
-  color: #727272;
-  margin-bottom: 24px;
-  margin-top: 10px;
-}
-
-/* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_text a {
-  padding: 13px 43px;
-}
-
-/* line 31, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_thumb {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-/* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_info_area .about_thumb img {
-  width: 100%;
-}
-
-/* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_mission {
-  padding-top: 150px;
-}
-
-@media (max-width: 767px) {
-  /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_mission {
-    padding-top: 50px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_mission {
-    padding-top: 80px;
-  }
-}
-
-/* line 51, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_mission .about_thumb {
-  position: relative;
-  margin-bottom: 70px;
-  padding: 30px 70px;
-}
-
-@media (max-width: 767px) {
-  /* line 51, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_mission .about_thumb {
-    padding: 30px;
-  }
-}
-
-/* line 58, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_mission .about_thumb img {
-  width: 100%;
-}
-
-/* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-.about_mission .about_thumb .small_img_1 {
-  width: 182px;
-  height: 186px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-@media (max-width: 767px) {
-  /* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_mission .about_thumb .small_img_1 {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
-  .about_mission .about_thumb .small_img_1 {
-    width: 100px;
-    height: 100px;
-  }
-}
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area {
-  padding: 110px 0 90px 0;
-  background: #311E25;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-  .download_area {
-    padding: 90px 0;
-  }
-}
-
-/* line 8, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .download_text h3 {
-  font-size: 36px;
-  color: #fff;
-  line-height: 46px;
-  margin-bottom: 60px;
-}
-
-@media (max-width: 767px) {
-  /* line 8, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-  .download_area .download_text h3 {
-    font-size: 25px;
-    color: #fff;
-    line-height: 40px;
-    margin-bottom: 20px;
-  }
-}
-
-/* line 21, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .download_left {
-  margin-bottom: 30px;
-}
-
-/* line 23, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .download_left p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #C9C9C9;
-  margin: 20px 0;
-}
-
-/* line 29, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .download_left .boxed-btn3-line {
-  margin-top: 28px;
-}
-
-/* line 34, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .progress_skills .single_job {
-  margin-bottom: 33px;
-}
-
-/* line 36, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .progress_skills .single_job .label {
-  margin-bottom: 16px;
-}
-
-/* line 38, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .progress_skills .single_job .label span {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 400;
-}
-
-/* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .progress_skills .single_job .progress {
-  height: 6px;
-  overflow: hidden;
-  font-size: .75rem;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-}
-
-/* line 50, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
-.download_area .progress_skills .single_job .progress .progress-bar {
-  background: #64b9db;
-  border-radius: 5px;
-}
-
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area {
-  background: #311E25;
-}
-
-/* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .banner_img img {
-  width: 100%;
-}
-
-/* line 8, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .pos_up {
-  position: relative;
-  margin-top: -450px;
-}
-
-@media (max-width: 767px) {
-  /* line 8, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-  .projects_details_area .pos_up {
-    margin-top: -130px;
-  }
-}
-
-/* line 15, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .details_info {
-  padding-bottom: 120px;
-  padding-top: 60px;
-}
-
-@media (max-width: 767px) {
-  /* line 15, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-  .projects_details_area .details_info {
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
-}
-
-/* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .details_info .single_details {
-  margin-bottom: 63px;
-}
-
-@media (max-width: 767px) {
-  /* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-  .projects_details_area .details_info .single_details {
-    margin-bottom: 30px;
-  }
-}
-
-/* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .details_info .single_details h3 {
-  font-size: 22px;
-  font-weight: 400;
-  color: #FFFFFF;
-  margin-bottom: 29px;
-}
-
-/* line 33, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .details_info .single_details p {
-  color: #C9C9C9;
-  font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 30px;
-}
-
-/* line 41, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
-.projects_details_area .details_info .button_link a {
-  display: block;
-}
-
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area {
   background: #222;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 7, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery .thumb img {
   width: 100%;
 }
 
-/* line 11, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery .gallery_heading {
   padding: 20px 0;
   margin-top: 7px;
@@ -1618,7 +752,6 @@ h3 {
   color: #fff;
 }
 
-/* line 15, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery .gallery_heading span {
   color: #fff;
   font-size: 16px;
@@ -1627,181 +760,21 @@ h3 {
   margin-bottom: 7px;
 }
 
-/* line 22, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery .gallery_heading h4 {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
 }
 
-/* line 33, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_gallery.scss */
 .gallery_area .more_works a {
   display: block !important;
 }
 
-/* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../img/banner/footer_bg.png);
-}
 
-/* line 7, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer p {
-  font-family: "Roboto", sans-serif !important;
-}
-
-/* line 10, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top {
-  padding-top: 145px;
-  padding-bottom: 129px;
-}
-
-@media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
-  }
-}
-
-/* line 17, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .lets_talk {
-  margin-bottom: 95px;
-}
-
-/* line 18, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .lets_talk h3 {
-  font-size: 46px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  /* line 18, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top .lets_talk h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 18, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top .lets_talk h3 {
-    font-size: 40px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 18, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top .lets_talk h3 {
-    font-size: 38px;
-  }
-}
-
-/* line 32, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .lets_talk h3 a {
-  color: #64b9db;
-}
-
-/* line 36, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .lets_talk p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #fff;
-}
-
-/* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links {
-  border: 1px solid #7A5444;
-  padding: 25px 30px;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-@media (max-width: 767px) {
-  /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top .single_links {
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 43, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .footer_top .single_links {
-    padding: 25px 10px;
-  }
-}
-
-/* line 54, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links span {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-/* line 59, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links a {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* line 61, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links a i {
-  color: #64b9db;
-  font-size: 20px;
-}
-
-/* line 66, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links:hover {
-  background: #CCAD85;
-  border: 1px solid #CCAD85;
-  color: #fff;
-}
-
-/* line 71, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .footer_top .single_links:hover a i {
-  color: #fff;
-}
-
-/* line 78, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .copy-right_text {
-  padding-bottom: 30px;
-}
-
-/* line 80, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .copy-right_text .copy_right {
-  font-size: 14px;
-  color: #919191;
-  margin-bottom: 0;
-  font-weight: 500;
-}
-
-@media (max-width: 767px) {
-  /* line 80, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-  .footer .copy-right_text .copy_right {
-    font-size: 13px;
-  }
-}
-
-/* line 88, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_footer.scss */
-.footer .copy-right_text .copy_right a {
-  color: #64b9db;
-}
-
-/* line 1,  */
 .banner_bg_1 {
   background-image: url(../img/banner/small_banner.png);
 }
 
-/* line 10,  */
 .banner {
   background-size: cover;
   background-position: center center;
@@ -1812,27 +785,23 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 10,  */
   .banner {
     padding: 120px 0;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 10,  */
   .banner {
     padding: 150px 0;
   }
 }
 
-/* line 27,  */
 .banner.banner {
   height: 400px;
   padding-top: 130px;
   padding-bottom: 0;
 }
 
-/* line 44,  */
 .banner h3 {
   font-size: 80px;
   color: #000;
@@ -1842,13 +811,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 44,  */
   .banner h3 {
     font-size: 30px;
   }
 }
 
-/* line 54,  */
 .banner p {
   font-size: 18px;
   color: #fff;
@@ -1856,17 +823,14 @@ h3 {
   text-transform: capitalize;
 }
 
-/* line 59,  */
 .banner p a {
   color: #fff;
 }
 
-/* line 61,  */
 .banner p a:hover {
   color: #fff;
 }
 
-/* line 67,  */
 .banner .icon {
   background: #FF5748;
   width: 136px;
@@ -1879,13 +843,11 @@ h3 {
   margin: auto;
 }
 
-/* line 75,  */
 .banner .icon i {
   color: #fff;
   font-size: 68px;
 }
 
-/* line 81,  */
 .banner h4 {
   font-size: 70px;
   font-weight: 300;
@@ -1894,20 +856,17 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 81,  */
   .banner h4 {
     font-size: 40px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 81,  */
   .banner h4 {
     font-size: 40px;
   }
 }
 
-/* line 93,  */
 .banner p {
   color: #fff;
   font-size: 16px;
@@ -1925,4 +884,3 @@ h3 {
   height: 700px;
   padding: 30px 20px;
 }
-/*# sourceMappingURL=style.css.map */
