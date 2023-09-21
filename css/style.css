@@ -630,10 +630,10 @@ h3 {
 }
 
 .slider_area .single_slider .slider_text.about_slide {
-  padding-top: 70px;
+  padding-top: 25vh;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text.about_slide {
     padding: 130px 0;
   }
