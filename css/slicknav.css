@@ -166,10 +166,12 @@
 	position: relative;
 	z-index: 99;
 }
+
 .slicknav_menu {
   margin: 0;
   padding: 0;
 }
+
 .slicknav_nav {
 	background: #fff;
 	float: right;
@@ -182,7 +184,7 @@
 .slicknav_nav a:hover {
     background: #777 none repeat scroll 0 0;
     border-radius: 6px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .slicknav_nav a {
@@ -190,6 +192,7 @@
     font-weight: 400;
     color: #000;
     text-transform: capitalize;
+	  font-family: "Raleway", sans-serif;
 }
 
 .slicknav_nav .slicknav_arrow {
@@ -217,11 +220,4 @@
 	right: 5px;
 	top: -5px;
 	padding-bottom: 3px;
-}
-.slicknav_nav a {
-	font-size: 14px;
-	font-weight: 400;
-	color: #000;
-	text-transform: capitalize;
-	font-family: "Raleway", sans-serif;
 }
