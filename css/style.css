@@ -165,6 +165,7 @@ h3 {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
+  z-index: 1;
 }
 
 .boxed-btn:hover {
@@ -176,7 +177,9 @@ h3 {
 .boxed-btn-black {
   color: #000 !important;
   display: inline-block;
+  position: relative;
   padding: 17px 49px;
+  margin: 10px 20px 0 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -192,6 +195,7 @@ h3 {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
+  z-index: 1;
 }
 
 .boxed-btn-black:hover {
@@ -225,7 +229,7 @@ h3 {
   padding: 0;
   width: 95%;
   padding: 0;
-  border-radius: 0px;
+  border-radius: 0 0 5px 5px;
   margin-top: 5px;
   position: absolute;
   left: 0;
@@ -486,6 +490,7 @@ h3 {
   -moz-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s;
+  border-radius: 5px;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li {
@@ -494,6 +499,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li .submenu li a {
   padding: 10px 15px;
+  margin: 10px 0px;
   position: inherit;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -510,6 +516,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
   background: #aaa;
   color: #fff;
+  border-radius: 5px;
 }
 
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
@@ -588,6 +595,12 @@ h3 {
 
 .slider_bg_1 {
   background-image: url(../img/banner/banner.png);
+  background-size: cover !important;
+  position: absolute;
+  left:      0px;
+  height: 100$;
+  width: 100%;
+  overflow: hidden;
 }
 
 .slider_area {
@@ -599,13 +612,7 @@ h3 {
   min-height: 100vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center center;
-}
-
-@media (max-width: 767px) {
-  .slider_area .single_slider {
-    min-height: 100vh;
-  }
+  background-position: center left;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -615,18 +622,12 @@ h3 {
 }
 
 .slider_area .single_slider .slider_text {
-  padding-top: 150px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .slider_area .single_slider .slider_text {
-    padding: 130px 0;
-  }
+  padding-top: 30vh;
 }
 
 @media (max-width: 767px) {
   .slider_area .single_slider .slider_text {
-    padding: 130px 0;
+    padding-top: 0;
   }
 }
 
@@ -672,29 +673,39 @@ h3 {
 }
 
 .slider_area .single_slider .slider_text h3 span {
-  color: #aaa;
+  color: #888;
 }
 
 @media (max-width: 767px) {
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
     line-height: 45px;
   }
+
+  .slider_area .single_slider .slider_text h3 span {
+    font-size: 30px;
+  }
+  
+  .boxed-btn-black {
+    padding: 10px 20px;
+    margin: 10px 50% 0px 0px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .slider_area .single_slider .slider_text h3 {
-    font-size: 54px;
+    font-size: 60px;
   }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text h3 {
-    font-size: 70px;
-  }
-  .slider_area .single_slider .slider_text h4 {
-    font-size: 35px;
+    font-size: 65px;
   }
 }
 
@@ -720,9 +731,9 @@ h3 {
 
 .slider_area .single_slider .my_img {
   position: absolute;
-  right: 0;
+  left: 60%;
   bottom: 0;
-  width: 450px;
+  width: 480px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -730,6 +741,20 @@ h3 {
     width: 480px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider .my_img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .my_img {
+    width: 300px;
+    left: 30%;
+  }
+}
+
 
 .slider_area .single_slider .my_img img {
   width: 100%;

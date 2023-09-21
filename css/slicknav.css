@@ -22,6 +22,7 @@
     float: left; }
   .slicknav_menu .slicknav_icon {
     float: left;
+    color: black;
     width: 1.125em;
     height: 0.875em;
     margin: 0.188em 0 0 0.438em; }
@@ -37,7 +38,8 @@
   .slicknav_menu .slicknav_icon-bar {
     display: block;
     width: 1.125em;
-    height: 0.125em;}
+    height: 0.125em;
+    background-color: black;}
   .slicknav_menu:before {
     content: " ";
     display: table; }
@@ -106,7 +108,7 @@
     .slicknav_nav .slicknav_row:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
-      color: #fff;
+      text-color: #fff;
       border-radius: 6px;  }
   .slicknav_nav a {
     padding: 5px 10px;
@@ -164,28 +166,9 @@
 	position: relative;
 	z-index: 99;
 }
-/* .slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(2) {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-}
-.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(1) {
-    -webkit-transform: rotate(45deg) translate(1px, 7px);
-    -ms-transform: rotate(45deg) translate(1px, 7px);
-        transform: rotate(45deg) translate(1px, 7px);
-}
-.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translateY(-6px);
-    -ms-transform: rotate(-45deg) translateY(-6px);
-        transform: rotate(-45deg) translateY(-6px);
-        position: relative;
-        top: -1px;
-} */
 .slicknav_menu {
   margin: 0;
   padding: 0;
-}
-.slicknav_icon-bar {
-    background: #fff !important;
 }
 .slicknav_nav {
 	background: #fff;
